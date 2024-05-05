@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Theater Survey</title>
+  
+    <link rel="stylesheet" href="./sheet.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Cinema Theater Survey</h1>
+        <form action="#" method="POST">
+        
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="rating">Overall Rating:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10">
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            
+            <input type="submit" value="Submit">
+            <div class="w3-clear nextprev">
+                <a class="w3-right w3-btn" href="./question1.html">Next ❯</a>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
+

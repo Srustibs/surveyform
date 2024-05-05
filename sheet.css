@@ -1,0 +1,103 @@
+body {
+font-family: Arial, sans-serif;
+background-image: url('./WhatsApp\ Image\ 2024-05-02\ at\ 15.32.47_81c82b8c.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+
+
+.container {
+max-width: 500px;
+max-height: 700px;
+margin: 50px auto;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+box-shadow:1px 1px 3px 2px black;
+
+
+
+}
+label{
+color: #ffffff;
+}
+
+h1 {
+text-align: center;
+color: #cccccc;
+
+}
+
+
+form label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+box-sizing: border-box;
+}
+
+input[type="range"] {
+width: 100%;
+margin-bottom: 10px;
+}
+
+textarea {
+resize: none;
+}
+
+input[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color:black;
+color: #fff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color:orange;
+}
+.nextprev a.w3-right, .nextprev a.w3-left {
+background-color: #04AA6D;
+color: #ffffff;
+border: 20px;
+border-color: #04AA6D;
+margin-top: 30px;
+
+}
+.nextprev a {
+font-size: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+padding-left: 19px;
+padding-right: 19px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+}
+.w3-right {
+float: right !important;
+}
+.w3-btn, .w3-button {
+border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align:middle;
+overflow: hidden;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+}
